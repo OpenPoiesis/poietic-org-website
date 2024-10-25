@@ -24,7 +24,7 @@ a virtual laboratory for modelling, simulation and reasoning about systems.
 Focus is on the modelling process, model reasoning, model composition and
 sharing of reusable model fragments.
 
-![Overview](/images/introduction-overview@2x.png)
+![Overview](/images/introduction-overview.png){:width="75%"}
 
 
 This project is about _modelling the modelling_. Where the intended output is
@@ -55,7 +55,7 @@ As of the time of this post, the following components exist:
 - [**Poietic Server**](https://github.com/OpenPoiesis/poietic-server):
   Makeshift localhost simulation server for running the _PoieticFlows_ models.
 
-![Open Poiesis First Overview](/images/open_poiesis-overview@2x.png){:width="75%"}
+![Open Poiesis First Overview](/images/introduction-project-modules.png){:width="75%"}
 
 The design is gradually being described in the 
 [**Poietic Architecture**](https://github.com/OpenPoiesis/poietic-architecture)
@@ -133,8 +133,9 @@ _modelling the seeing_ and _modelling the understanding_, I would be more than
 happy.
 
 If you don't have an idea how, and if you are an engineer, the help I might need
-right now is code review. I have been immersed in my own code for a significant
-amount if time, that I am numb to many of the design decisions I made.
+right now is code and documentation review. I have been immersed in my own code
+for a significant amount if time, that I am numb to many of the design decisions
+I made.
 
 If you have some technical background, even playing with the toolkit and
 giving me feedback about the experience will make me happy.
@@ -147,7 +148,7 @@ Or just give any constructive feedback, ask a question or propose a feature.
   
 ## Links and Further Reading
 
-- Open Poiesis Umbrella: [github](https://github.com/openpoiesis/)
+- Open Poiesis (all): [github](https://github.com/openpoiesis/)
 - Poietic Tool: [github](https://github.com/OpenPoiesis/poietic-tool)
 - Poietic Flows: [github](https://github.com/OpenPoiesis/poietic-flows), [package documentation](https://openpoiesis.github.io/poietic-flows/documentation/poieticflows/)
 - Poietic Core: [github](https://github.com/OpenPoiesis/poietic-core), [package documentation](https://openpoiesis.github.io/poietic-core/documentation/poieticcore/)
