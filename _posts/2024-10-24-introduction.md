@@ -39,7 +39,8 @@ and verify ideas about the architecture, structures, algorithms, interchange
 formats and more. Learnings are captured as a systems architecture, which
 is constantly evolving.
 
-## Existing Sofware
+
+## Current Status
 
 As of the time of this post, the following components exist:
 
@@ -55,15 +56,16 @@ As of the time of this post, the following components exist:
 - [**Poietic Server**](https://github.com/OpenPoiesis/poietic-server):
   Makeshift localhost simulation server for running the _PoieticFlows_ models.
 
+
+The language of choice for the prototype implementation,
+which might become referential, is [Swift](https://www.swift.org).
+
 ![Open Poiesis First Overview](/images/introduction-project-modules.png){:width="75%"}
 
 The design is gradually being described in the 
 [**Poietic Architecture**](https://github.com/OpenPoiesis/poietic-architecture)
-repository.
-
-
-The language of choice for the prototype implementation,
-which might become referential, is [Swift](https://www.swift.org).
+repository which will include diagrams, specifications, proposals and more. I am
+not yet firmly decided on the structure though.
 
 
 ## Goals and Non-Goals
