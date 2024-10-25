@@ -14,12 +14,12 @@ plugins:
   - jekyll-feed
 
 defaults:
-    -
-        scope:
-            type: "posts"
-        values:
-            permalink: /blog/:title/
-            layout: "post"
+  -
+    scope:
+      type: "posts"
+    values:
+      permalink: /blog/:title/
+      layout: "post"
 
 header_pages:
   - blog.md
