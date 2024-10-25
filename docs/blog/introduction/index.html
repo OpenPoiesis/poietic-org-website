@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Introduction | Open Poiesis</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Introduction" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hi there!" />
+<meta property="og:description" content="Hi there!" />
+<link rel="canonical" href="https://poietic.org/blog/introduction/" />
+<meta property="og:url" content="https://poietic.org/blog/introduction/" />
+<meta property="og:site_name" content="Open Poiesis" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-10-24T12:45:00+02:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Introduction" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-24T12:45:00+02:00","datePublished":"2024-10-24T12:45:00+02:00","description":"Hi there!","headline":"Introduction","mainEntityOfPage":{"@type":"WebPage","@id":"https://poietic.org/blog/introduction/"},"url":"https://poietic.org/blog/introduction/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://poietic.org/feed.xml" title="Open Poiesis" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Open Poiesis</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog.html">Blog</a><a class="page-link" href="/documentation/">Documentation</a><a class="page-link" href="/models.html">Models</a><a class="page-link" href="/packages.html">Packages</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Introduction</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2024-10-24T12:45:00+02:00" itemprop="datePublished">Oct 24, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Hi there!</p>
+
+<blockquote>
+  <p>“Look, it is already somewhat useable. You have been working on it for quite
+some time, it would be a pity not to publish it”.</p>
+</blockquote>
+
+<p>– A good friend of mine pushed me recently.</p>
+
+<p>I am releasing a preview of a hobby project of mine: <strong><a href="https://github.com/openpoiesis/">Open Poiesis</a></strong> – building
+blocks of a virtual laboratory for systems thinking.</p>
+
+<h2 id="overview">Overview</h2>
+
+<p>Intention of the Open Poiesis project is to create an open architecture for
+a virtual laboratory for modelling, simulation and reasoning about systems.
+Focus is on the modelling process, model reasoning, model composition and
+sharing of reusable model fragments.</p>
+
+<p><img src="/images/introduction-overview.png" alt="Overview" width="75%" /></p>
+
+<p>This project is about <em>modelling the modelling</em>. Where the intended output is
+an answer to the question:</p>
+
+<blockquote>
+  <p>How a model of a modelling, simulation, reasoning and experimentation
+process looks like?</p>
+</blockquote>
+
+<p>The included collection of libraries and tools that are part of the project
+are essential, yet they are not the primary goal. Their purpose is to reflect
+and verify ideas about the architecture, structures, algorithms, interchange
+formats and more. Learnings are captured as a systems architecture, which
+is constantly evolving.</p>
+
+<h2 id="existing-sofware">Existing Sofware</h2>
+
+<p>As of the time of this post, the following components exist:</p>
+
+<ul>
+  <li><a href="https://github.com/OpenPoiesis/poietic-core"><strong>Poietic Core</strong></a>:
+Swift package that provides basis for design,
+design objects, metamodel, changes, persistence, arithmetic
+expressions.</li>
+  <li><a href="https://github.com/OpenPoiesis/poietic-flows"><strong>Poietic Flows</strong></a>:
+Swift package for <a href="https://en.wikipedia.org/wiki/Stock_and_flow">Stock and Flow</a>
+modelling domain and simulator.</li>
+  <li><a href="https://github.com/OpenPoiesis/poietic-tool"><strong>Poietic Tool</strong></a>:
+Command-line tool for editing and running Poietic models.</li>
+  <li><a href="https://github.com/OpenPoiesis/poietic-server"><strong>Poietic Server</strong></a>:
+Makeshift localhost simulation server for running the <em>PoieticFlows</em> models.</li>
+</ul>
+
+<p><img src="/images/introduction-project-modules.png" alt="Open Poiesis First Overview" width="75%" /></p>
+
+<p>The design is gradually being described in the 
+<a href="https://github.com/OpenPoiesis/poietic-architecture"><strong>Poietic Architecture</strong></a>
+repository.</p>
+
+<p>The language of choice for the prototype implementation,
+which might become referential, is <a href="https://www.swift.org">Swift</a>.</p>
+
+<h2 id="goals-and-non-goals">Goals and Non-Goals</h2>
+
+<blockquote>
+  <p>Make people see and understand the systems of the nature and society and give
+them the ability to collaboratively improve the seeing and the understanding.</p>
+</blockquote>
+
+<p>To achieve that, this project is based on two inter-related foundations:
+an <em>open architecture</em> of a toolkit and an ecosystem of <em>model libraries</em>. To get
+there, these are the goals:</p>
+
+<ol>
+  <li>Describe and make tools for seeing and understanding.</li>
+  <li>Help others to build similar tools.</li>
+  <li>Make sure that the tools that exist out there can exchange user created
+content.</li>
+  <li>Formalise model of models (metamodel) and make sure it is practical yet
+comprehensive, transparent yet easily processable.</li>
+  <li>Enable a way to share, compare and compose models.</li>
+  <li>Allow variety of opinions, scenarios and narratives to be present
+in an open ecosystem of the models.</li>
+  <li>Make sure that all of the above, including user’s creations, is open and
+has assured continuity through formal specification.</li>
+</ol>
+
+<p>I will write about the model library idea in more details later.</p>
+
+<p>A wish: graphical interactive modelling applications (local-first).</p>
+
+<p>See also: <a href="https://github.com/OpenPoiesis/poietic-architecture/blob/main/Drafts/Requirements.md">Requirements</a>.</p>
+
+<h3 id="non-goals">Non-Goals</h3>
+
+<ol>
+  <li>Performance. At this stage, focusing on performance would get in
+the way of making the software understandable and it would make the
+software hard to evolve.</li>
+  <li>Development of modelling methodologies that are not based on graphs nor
+can be integrated in the graph structures.</li>
+</ol>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>My personal focus, without specific time commitment is:</p>
+
+<ul>
+  <li>Documenting what exists, describe technical debt</li>
+  <li>Creating diagrams of data models, data flows and other relevant aspects
+of the software. (Populating the <a href="https://github.com/OpenPoiesis/poietic-architecture">architecture</a> repository.)</li>
+  <li>Bug-fixing what exists, no radical new features at the moment, except
+if needed for model examples.</li>
+  <li>Create more models and examples. Add features, if necessary, to support
+those models. (Populating the <a href="https://github.com/OpenPoiesis/poietic-examples">examples</a> repository.)</li>
+  <li>Attempt to sketch a simple graphical modelling application (I am contemplating
+Godot).</li>
+</ul>
+
+<p>I will be writing more about the project. Regularity is not assured. The 
+upcoming posts that I have in mind:</p>
+
+<ul>
+  <li>Current state of the software with focus on the technical debt and on
+what is wrong/not as I want it to be.</li>
+  <li>Description of the data model, reasoning behind it and known issues.</li>
+  <li>Detailed description of the Flows compilation process.</li>
+</ul>
+
+<h2 id="getting-involved">Getting Involved</h2>
+
+<p>If you would like to to join me on the journey of <em>modelling the modelling</em>, 
+<em>modelling the seeing</em> and <em>modelling the understanding</em>, I would be more than
+happy.</p>
+
+<p>If you don’t have an idea how, and if you are an engineer, the help I might need
+right now is code and documentation review. I have been immersed in my own code
+for a significant amount if time, that I am numb to many of the design decisions
+I made.</p>
+
+<p>If you have some technical background, even playing with the toolkit and
+giving me feedback about the experience will make me happy.</p>
+
+<p>If you are not an engineer, giving me a model suggestion, if you have an existing
+(stock and flow) model at hand, would benefit the project as well.</p>
+
+<p>Or just give any constructive feedback, ask a question or propose a feature.</p>
+
+<h2 id="links-and-further-reading">Links and Further Reading</h2>
+
+<ul>
+  <li>Open Poiesis (all): <a href="https://github.com/openpoiesis/">github</a></li>
+  <li>Poietic Tool: <a href="https://github.com/OpenPoiesis/poietic-tool">github</a></li>
+  <li>Poietic Flows: <a href="https://github.com/OpenPoiesis/poietic-flows">github</a>, <a href="https://openpoiesis.github.io/poietic-flows/documentation/poieticflows/">package documentation</a></li>
+  <li>Poietic Core: <a href="https://github.com/OpenPoiesis/poietic-core">github</a>, <a href="https://openpoiesis.github.io/poietic-core/documentation/poieticcore/">package documentation</a></li>
+  <li>Poietic Server: <a href="https://github.com/OpenPoiesis/poietic-servera">github</a></li>
+  <li>Poietic Architecture: <a href="https://github.com/OpenPoiesis/poietic-architecture">github</a></li>
+</ul>
+
+<h2 id="closing-remarks">Closing Remarks</h2>
+
+<p>Why I am doing it? because I enjoy it and I feel that it might be useful.
+That is it.</p>
+
+<p>This project is a hobby project that I am sharing with whoever might like it.
+I hope it might be at least somewhat useful for others. Even if for nothing
+else, at least the software evolution story telling and the diagrams might
+inspire someone.</p>
+
+<p>Cheers,</p>
+
+<p>Stefan</p>
+
+  </div><a class="u-url" href="/blog/introduction/" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Open Poiesis</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Open Poiesis</li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/OpenPoiesis"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">OpenPoiesis</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Open Poiesis is a collection of building blocks of a virtual laboratory for systems thinking.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
