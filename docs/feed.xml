@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://poietic.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://poietic.org/" rel="alternate" type="text/html" /><updated>2024-10-25T13:23:00+02:00</updated><id>https://poietic.org/feed.xml</id><title type="html">Open Poiesis</title><subtitle>Open Poiesis is a collection of building blocks of a virtual laboratory for systems thinking.</subtitle><entry><title type="html">Introduction</title><link href="https://poietic.org/blog/introduction/" rel="alternate" type="text/html" title="Introduction" /><published>2024-10-24T12:45:00+02:00</published><updated>2024-10-24T12:45:00+02:00</updated><id>https://poietic.org/blog/introduction</id><content type="html" xml:base="https://poietic.org/blog/introduction/"><![CDATA[<p>Hi there!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://poietic.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://poietic.org/" rel="alternate" type="text/html" /><updated>2024-10-25T21:36:49+02:00</updated><id>https://poietic.org/feed.xml</id><title type="html">Open Poiesis</title><subtitle>Open Poiesis is a collection of building blocks of a virtual laboratory for systems thinking.</subtitle><entry><title type="html">Introduction</title><link href="https://poietic.org/blog/introduction/" rel="alternate" type="text/html" title="Introduction" /><published>2024-10-24T12:45:00+02:00</published><updated>2024-10-24T12:45:00+02:00</updated><id>https://poietic.org/blog/introduction</id><content type="html" xml:base="https://poietic.org/blog/introduction/"><![CDATA[<p>Hi there!</p>
 
 <blockquote>
   <p>“Look, it is already somewhat useable. You have been working on it for quite
@@ -33,7 +33,7 @@ and verify ideas about the architecture, structures, algorithms, interchange
 formats and more. Learnings are captured as a systems architecture, which
 is constantly evolving.</p>
 
-<h2 id="existing-sofware">Existing Sofware</h2>
+<h2 id="current-status">Current Status</h2>
 
 <p>As of the time of this post, the following components exist:</p>
 
@@ -51,14 +51,15 @@ Command-line tool for editing and running Poietic models.</li>
 Makeshift localhost simulation server for running the <em>PoieticFlows</em> models.</li>
 </ul>
 
+<p>The language of choice for the prototype implementation,
+which might become referential, is <a href="https://www.swift.org">Swift</a>.</p>
+
 <p><img src="/images/introduction-project-modules.png" alt="Open Poiesis First Overview" width="75%" /></p>
 
 <p>The design is gradually being described in the 
 <a href="https://github.com/OpenPoiesis/poietic-architecture"><strong>Poietic Architecture</strong></a>
-repository.</p>
-
-<p>The language of choice for the prototype implementation,
-which might become referential, is <a href="https://www.swift.org">Swift</a>.</p>
+repository which will include diagrams, specifications, proposals and more. I am
+not yet firmly decided on the structure though.</p>
 
 <h2 id="goals-and-non-goals">Goals and Non-Goals</h2>
 
